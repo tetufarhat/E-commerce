@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ClientController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// website view controller start--
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/register',[ClientController::class, 'Register'])->name('register');
+Route::post('/insert-register',[ClientController::class, 'insertRegister'])->name('insert-register');
+// website view controller end--
+// backend controller start--

@@ -1,7 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0970ab4-5f89-4da2-913a-49e8ef621800" name="Default Changelist" comment="" />
+    <list default="true" id="e0970ab4-5f89-4da2-913a-49e8ef621800" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Order_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Oreder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_122511_create_oreders_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_124240_create_order_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/Doc/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/animated-headline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/gijgo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/price_rangs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/progressbar_barfiller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/slicknav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/style.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/gijgo-material.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/gijgo-material.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/gijgo-material.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/gijgo-material.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/comment_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/comment_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/comment_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/learn_about_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/single_blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/single_blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/single_blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/single_blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/single_blog_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/blog/slide_thumb_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/about-shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/about1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/about2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/brand1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/brand2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/brand3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/brand4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/brand5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/brand6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/footer_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/forhad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/h1_hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/heor_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/home-blog1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/home-blog2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/home-blog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular-itmes2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/popular1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/price1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/price2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/price3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/right-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/section_bg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/section_bg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/section_bg03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/section_bg04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/shape2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/team1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/team2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/team3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/testi-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/gallery/testimonial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/hero/h1_hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/hero/hero2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/logo/loder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/logo/logo2_footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/post_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/img/post/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/animated.headline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/gijgo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/hover-direction-snake.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.barfiller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.paroller.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.slicknav.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/one-page-nav-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/price-range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/vendor/modernizr-3.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_ask-question.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_blog_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_bradcam.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_h1-hero.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_headerMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_load-balnceing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_services_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_support-area.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_testimonial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/_want-wark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/assets/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/front/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/E-commerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/E-commerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +419,9 @@
       <option name="presentableId" value="Default" />
       <updated>1609215656271</updated>
       <workItem from="1609215754924" duration="1805000" />
-      <workItem from="1609224131186" duration="364000" />
+      <workItem from="1609224131186" duration="5062000" />
+      <workItem from="1609306984472" duration="793000" />
+      <workItem from="1609308357583" duration="7936000" />
     </task>
     <servers />
   </component>
@@ -175,5 +445,9 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1609215982026" />
+    <state x="547" y="172" key="run.anything.popup" timestamp="1609311849647">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="547" y="172" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1609311849647" />
   </component>
 </project>
